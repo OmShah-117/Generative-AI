@@ -114,4 +114,4 @@ cd ecoaudit-intelligence
 3. Extend functionality or evaluation metrics
 
 ---
-
+⭐ If you find this project useful, feel free to star the repository and explore further enhancements!
