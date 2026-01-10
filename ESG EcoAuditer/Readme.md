@@ -7,12 +7,12 @@ This project demonstrates how **responsible AI** can be applied to improve trans
 
 ---
 
-## 📌 Short Description
+## Short Description
 EcoAudit Intelligence allows users to upload sustainability or ESG reports (PDFs) and query them using natural language. The system retrieves relevant document sections using semantic search and generates accurate, source-cited responses using a large language model—ensuring **no hallucinations and full traceability**.
 
 ---
 
-## 🛠️ Tech Stack / Tools Used
+## Tech Stack / Tools Used
 - **Programming Language:** Python  
 - **Frontend / UI:** Streamlit  
 - **LLM Framework:** LangChain  
@@ -24,18 +24,18 @@ EcoAudit Intelligence allows users to upload sustainability or ESG reports (PDFs
 
 ---
 
-## ✨ Key Features
-- 📄 Upload and analyze multiple sustainability reports (PDFs)
-- 🔍 Semantic search with FAISS vector indexing
-- 🧠 Retrieval-Augmented Generation (RAG) for factual accuracy
-- 🛡️ **Strict Accuracy Mode** – answers only from document evidence
-- 📍 Source citations with document name and page numbers
-- 🎨 Professional Streamlit UI with glassmorphism design
-- ⚙️ Adjustable chunk size for granular or high-level analysis
+## Key Features
+- Upload and analyze multiple sustainability reports (PDFs)
+- Semantic search with FAISS vector indexing
+- Retrieval-Augmented Generation (RAG) for factual accuracy
+- **Strict Accuracy Mode** – answers only from document evidence
+- Source citations with document name and page numbers
+- Professional Streamlit UI with glassmorphism design
+- Adjustable chunk size for granular or high-level analysis
 
 ---
 
-## 📂 Dataset / Inputs
+## Dataset / Inputs
 - **Input Type:** PDF documents  
 - **Examples:**  
   - ESG Reports  
@@ -46,7 +46,7 @@ EcoAudit Intelligence allows users to upload sustainability or ESG reports (PDFs
 
 ---
 
-## ⚙️ How It Works (High-Level)
+## How It Works (High-Level)
 1. User uploads one or more PDF documents.
 2. Text is extracted using `PyPDFLoader`.
 3. Documents are split into semantic chunks.
@@ -59,8 +59,8 @@ EcoAudit Intelligence allows users to upload sustainability or ESG reports (PDFs
 
 ---
 
-## 🚀 Installation & Setup
-### 1️⃣ Clone the Repository
+## Installation & Setup
+### Clone the Repository
 ```bash
 git clone https://github.com/your-username/ecoaudit-intelligence.git
 cd ecoaudit-intelligence
