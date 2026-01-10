@@ -64,4 +64,54 @@ EcoAudit Intelligence allows users to upload sustainability or ESG reports (PDFs
 ```bash
 git clone https://github.com/your-username/ecoaudit-intelligence.git
 cd ecoaudit-intelligence
+```
+---
+
+## Results / Output
+
+- Evidence-based answers to sustainability questions
+- Source documents and page references for every response
+- Faster and more reliable ESG verification compared to manual review
+
+---
+
+## Model Performance & Evaluation
+### Evaluation Approach
+- Accuracy: Ensured by restricting responses to retrieved document context
+- Hallucination Control: Temperature set to zero
+- Relevance: Top-K document retrieval via FAISS
+
+### Metrics (Qualitative)
+- Precision of retrieved document chunks
+- Consistency of answers across repeated queries
+- Traceability of responses to source documents
+
+---
+
+## Limitations
+- Dependent on document quality and structure
+- No numerical scoring or benchmarking included
+- Not suitable for real-time regulatory compliance decisions
+- LLM responses are only as good as the uploaded data
+
+---
+
+## Future Improvements
+
+- Automated ESG scoring and benchmarking
+- Multilingual document support
+- Visual dashboards for trend analysis
+- Integration with regulatory databases
+- Support for additional SDGs (e.g., Climate Action – SDG 13)
+  
+---
+
+## Disclaimer
+- This project is intended for educational and demonstration purposes only.
+- It is not a certified auditing or compliance tool. Users are encouraged to:
+1. Experiment with different datasets
+2. Improve document quality
+3. Extend functionality or evaluation metrics
+
+---
 
