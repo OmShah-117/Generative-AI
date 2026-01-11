@@ -1,4 +1,4 @@
-# 🌿 EcoAudit Intelligence  
+# 🌿 EcoAudit Intelligence  ...
 **AI-Powered Sustainability Compliance & Verification Engine**
 
 EcoAudit Intelligence is an advanced **AI-driven document auditing and compliance system** designed to analyze corporate sustainability and ESG reports. Built using a **Retrieval-Augmented Generation (RAG)** architecture, the application enables users to ask natural language questions and receive **strictly evidence-backed answers** directly sourced from uploaded documents.
