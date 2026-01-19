@@ -1,2 +1,2 @@
 # Generative-AI
-Gen AI related projects.
+Gen AI related projects
